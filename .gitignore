@@ -1,0 +1,5 @@
+data/telemetry_events/*
+data/waterfalls/*
+logs/*
+venv/*
+keys.txt
