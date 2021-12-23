@@ -47,7 +47,7 @@ if __name__ == '__main__':
     sat.get_dataframe(load_disk_first=False)
     sats_df = enrich_with_celestrak()
     sats_df.to_csv("../data/satellites_enriched.csv")
-    tm = Telemetry(prints=True, max_pages=100000)
+    tm = Telemetry(prints=True, max_pages=10)
     scrapper = ObservationScrapper()
     satellites = sats_df.index
     tm.clear_archived_events()

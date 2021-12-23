@@ -311,7 +311,7 @@ LO-90",satellites/LILACSAT-1.jpg,re-entered,2019-03-28,1998-11-20,,,None,PRC,[],
 43017,PMAW-9203-2442-8666-3249,FOX-1B,"AO-91
 RADFXSAT",satellites/RadFxSat_Flight-300x300.jpg,alive,,2017-11-18,,,None,US,[{'decoder': 'fox'}],2021-07-21T10:11:42.473350Z,CITATION NEEDED - https://xkcd.com/285/,[]
 43018,GPCS-5280-8824-7420-8704,EAGLESAT-1,,satellites/eaglesat__1.jpg,alive,,2017-11-18,,,None,US,[],2021-07-21T10:11:42.475703Z,CITATION NEEDED - https://xkcd.com/285/,[]
-43019,AHTJ-2968-9777-7716-2636,ECAMSAT,,satellites/ecamsat.jpg,alive,,1998-11-20,,,None,US,[],2021-07-21T10:11:42.479191Z,CITATION NEEDED - https://xkcd.com/285/,[]
+43019,AHTJ-2968-9777-7716-2636,ECAMSAT,,satellites/ecamsat.jpg,re-entered,2021-12-08,1998-11-20,,,None,US,[],2021-12-14T02:10:47.690145Z,CITATION NEEDED - https://xkcd.com/285/,[]
 43022,KYGI-3501-5760-3207-9884,JILIN-01-04,Jilin-1 SP-04,satellites/jilin-1-video-04__1.jpg,alive,,2017-11-21,,,CIOMP,PRC,[],2021-07-21T10:11:42.482402Z,CITATION NEEDED - https://xkcd.com/285/,[]
 43023,SDKL-1465-8326-4185-7600,JILIN-01-05,Jilin-1 SP-05,satellites/jilin-1-video-04__1_f1TbfZB.jpg,alive,,2017-11-21,,,CIOMP,PRC,[],2021-07-21T10:11:42.485519Z,CITATION NEEDED - https://xkcd.com/285/,[]
 43024,JIWM-5912-1908-0879-2509,JILIN-01-06,Jilin-1 SP-06,satellites/jilin-1-video-04__1_MNLACYW.jpg,alive,,2017-11-21,,,None,PRC,[],2021-07-21T10:11:42.488606Z,CITATION NEEDED - https://xkcd.com/285/,[]
@@ -481,7 +481,7 @@ Magyar-OSCAR 105",,re-entered,2020-09-28,2019-12-06,,,None,HUN,[],2021-07-21T10:
 45119,RPKQ-8508-2351-2344-0188,HuskySat-1,HS-1 HO-107 OSCAR 107,satellites/huskysat-1.png,alive,,2019-11-02,,https://sites.google.com/uw.edu/huskysatellitelab/huskysat-1,None,US,[],2021-08-16T12:47:15.399092Z,CITATION NEEDED - https://xkcd.com/285/,[]
 45257,GFHE-3541-7447-2114-2770,OBJECT RA,,,alive,,1998-11-20,,,None,TBD,[],2021-07-21T10:11:42.809266Z,CITATION NEEDED - https://xkcd.com/285/,[]
 45258,BZQX-4787-4409-1766-6854,Phoenix (ASU),,satellites/7d68c1754efe89f77663fac20a4af90683b43f02.png,alive,,1998-11-20,,,None,US,[{'decoder': 'asuphoenix'}],2021-07-21T10:11:42.810692Z,CITATION NEEDED - https://xkcd.com/285/,[]
-45261,ABTK-2471-0556-6570-6819,AZTECHSAT-1,,satellites/222411.jpg,alive,,1998-11-20,,,None,MEX,[],2021-11-26T04:24:15.038645Z,CITATION NEEDED - https://xkcd.com/285/,[]
+45261,ABTK-2471-0556-6570-6819,AZTECHSAT-1,,satellites/222411.jpg,re-entered,2021-12-10,1998-11-20,,,None,MEX,[],2021-12-17T12:25:59.831537Z,CITATION NEEDED - https://xkcd.com/285/,[]
 45262,NAGJ-3385-0266-8518-2949,RadSat-U,WJ2XXC,satellites/RadSat-u_1_Pro_on_Bench.jpg,alive,,1998-11-20,,,None,US,[],2021-07-21T10:11:42.813771Z,CITATION NEEDED - https://xkcd.com/285/,[]
 45263,XJKP-5229-8707-4977-2749,QARMAN,ON05BE,,alive,,1998-11-20,,,None,BEL,[{'decoder': 'qarman'}],2021-07-21T10:11:42.815195Z,CITATION NEEDED - https://xkcd.com/285/,[]
 45529,TYCI-5959-1115-4385-3904,NOUR 01,"NOUR 01
@@ -775,3 +775,4 @@ SriShaktiSat",,alive,,,,,None,,[],2021-07-21T10:11:43.079411Z,CITATION NEEDED - 
 48255,RJAD-6971-5705-5997-8587,Jin Zijing 1-02,OBJECT H,satellites/jinzijing-1__1.jpg,alive,,2021-04-27,,,None,PRC,[],2021-11-07T14:49:56.661571Z,Eelke Survey,[]
 48256,XWPB-8152-0101-9678-1103,Taijing 2-01,OBJECT J,satellites/taijing-2-1__1_pqyLHHZ.jpg,alive,,2021-04-27,,,None,PRC,[],2021-11-07T14:48:51.668065Z,Eelke Survey,[]
 99499,BZWR-6172-2785-3507-5423,SanoSat-1,,satellites/sansosat-1.JPG,future,,,,,None,NP,[],2021-11-29T10:36:45.573748Z,https://gitlab.com/librespacefoundation/satnogs-ops/-/issues/210,[]
+38853,ZPLU-7926-5127-3528-0122,FITSat-1,Niwaka,,alive,2013-07-04,1998-11-20,2012-10-04T00:00:00Z,http://www.fit.ac.jp/~tanaka/fitsat.shtml,None,JPN,[],2021-12-07T08:24:18.380794Z,https://en.wikipedia.org/wiki/Niwaka,[]
