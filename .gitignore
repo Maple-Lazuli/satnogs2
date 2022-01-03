@@ -3,3 +3,6 @@ data/waterfalls/*
 logs/*
 venv/*
 keys.txt
+.idea
+.idea*
+.ipynb_checkpoints/
