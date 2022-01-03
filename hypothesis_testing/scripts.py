@@ -27,12 +27,21 @@ def aggregate_data():
     return complete_df
 
 
-def add_numeric_status_columns(df):
+def prepare_satnogs_data(df):
     """
     Returns: Pandas dataframe with the Status_numeric column and 1s column.
     """
     df['Ones'] = 1
-    df['Status_numeric'] = df['Status'].apply(lambda x: eval_obs_status(x))
+    df['status_numeric'] = df['Status'].apply(lambda x: eval_obs_status(x))
+
+    df['SignalType'] = df['Mode'].apply(lambda x: x.split(',')[0][2:-1])
+    df['SignalRate'] = df['Mode'].apply(lambda x: x.split(',')[1][2:-2])
+    df['SignalRate'] = df['SignalRate'].apply(lambda x: x if len(x) > 0 else '0')
+    df['Frequency'] = df['Frequency'].apply(lambda x: fix_freqs(x))
+    df['Frequency'] = df['Frequency'].astype(int)
+    df['Band'] = df['Frequency'].apply(lambda x: label_band(x))
+    df['Band'].value_counts()
+
     return df
 
 
